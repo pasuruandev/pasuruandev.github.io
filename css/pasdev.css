@@ -91,3 +91,7 @@
 .column img{
   margin-top: 20px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
