@@ -90,8 +90,17 @@
 
 .column img{
   margin-top: 20px;
+  border-radius: 8px;
+}
+
+.column img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s transform ease-in-out;
+  z-index: 2;
 }
 
 html {
   scroll-behavior: smooth;
 }
+
