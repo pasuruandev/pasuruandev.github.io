@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="css/pasdev.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <script
+            defer
+            src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <nav class="navbar" style="background-color: transparent">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="https://pasuruandev.github.io">
+                        <img src="images/logo-landscape.png" width="200" />
+                    </a>
+
+                    <a
+                        role="button"
+                        class="navbar-burger burger"
+                        aria-label="menu"
+                        aria-expanded="false"
+                        data-target="navbarBasicExample"
+                    >
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item" href="#home">Beranda</a>
+                        <a class="navbar-item" href="#meetup">Meetup</a>
+                        <a class="navbar-item" href="#webinar">Webinar</a>
+                        <a class="navbar-item" href="#galeri">Galeri</a>
+                        <a class="navbar-item" href="#kolaborasi">Kolaborasi</a>
+                    </div>
+
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <div class="buttons">
+                                <a
+                                    class="button is-dark"
+                                    href="http://bit.ly/submitidepasdev"
+                                    target="_blank"
+                                >
+                                    <strong>Submit Ide</strong>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <br><br>
+
+            <div class="columns">
+                <div class="column is-two-fifths">
+                    <img src="images/webinar/binus-computer-club-virtual-conference.png" alt="Bina Nusantara Computer Club - Virtual Conference" width="100%">
+                </div>
+                <div class="column">
+                    <h1 class="is-size-5 has-text-weight-semibold is-orange">Webinar</h1>
+                    <h1 class="is-size-3 has-text-weight-bold">Acquiring Valuable Insights to Achieve Success in the Digital Era</h1>
+
+                    <p class="mt-6 mb-2">
+                        <strong>OPEN REGISTRATION FOR VIRTUAL CONFERENCE! 📢</strong>
+                    </p>
+
+                    <p class="mb-2">TechnoScape adalah event teknologi terbesar yang diadakan oleh Bina Nusantara Computer Club. TechnoScape 2022 kembali hadir dengan rangkaian acara menarik termasuk Virtual Conference dari tanggal 3 - 5 Juni 2022 yang bertemakan “Acquiring Valuable Insights to Achieve Success in the Digital Era”.</p>
+                    <p class="mb-2">Virtual Conference adalah rangkaian webinar sekaligus talkshow yang mengangkat topik seputar bisnis, desain, dan teknologi. Virtual Conference menghadirkan beberapa pembicara yang berpengalaman sesuai dengan bidang pekerjaannya dari beberapa perusahaan di Indonesia.</p>
+
+                    <div class="content">
+                        <strong>Mengapa kamu harus berpartisipasi dalam Virtual Conference?</strong>
+                        <ul>
+                            <li>Memperoleh wawasan teknologi yang relevan</li>
+                            <li>Mendapatkan inspirasi karir dari pakarnya</li>
+                            <li>Memperluas jaringan dengan para profesional</li>
+                            <li>Dan masih banyak lagi</li>
+                        </ul>
+                    </div>
+                    <p class="mb-2">Ikuti Virtual Conference dan dapatkan insights dari pakarnya! 🔥</p>
+                    <p class="mb-2">
+                        🌐 Daftarkan dirimu segera melalui website:<br>
+                        <a href="https://technoscape.id/" target="_blank">technoscape.id</a>
+                    </p>
+
+                    <p class="mb-1">
+                        ☎️&nbsp;Kamu juga dapat menghubungi contact person:<br>
+                        Salyvana<br>
+                        0851-7107-3141<br>
+                        saly120
+                    </p>
+                    <p class="mb-2">
+                        Andini<br>
+                        0895-0572-7663<br>
+                        redpeachy
+                    </p>
+
+                    <p>
+                        Ikuti dan pantau terus media sosial BNCC dan TechnoScape untuk informasi selanjutnya:
+                    </p>
+                    <p>
+                        👉 Instagram: 
+                        <a href="https://www.instagram.com/technoscapebncc/" target="_blank">@technoscapebncc</a> dan
+                        <a href="https://www.instagram.com/bnccbinus/" target="_blank">@bnccbinus</a>
+                    </p>
+                    <p>
+                        👉 Facebook: <a href="https://www.facebook.com/bina.nusantara.computer.club/" target="_blank">Bina Nusantara Computer Club</a>
+                    </p>
+                    <p>
+                        👉 Twitter: <a href="https://twitter.com/BNCC_Binus" target="_blank">@BNCC_Binus</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const urlParams = new URLSearchParams(location.search);
+        const title = urlParams.get('t');
+
+        document.title = `Webinar - ${title}`;
+    </script>
+</body>
+</html>
